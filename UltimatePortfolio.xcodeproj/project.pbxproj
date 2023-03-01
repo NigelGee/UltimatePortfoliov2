@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B6572CE29AFA02500C132B4 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6572CD29AFA02500C132B4 /* IssueRow.swift */; };
 		8BE9AD40299F8CA100DC9A30 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9AD3F299F8CA100DC9A30 /* UltimatePortfolioApp.swift */; };
 		8BE9AD42299F8CA100DC9A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9AD41299F8CA100DC9A30 /* ContentView.swift */; };
 		8BE9AD44299F8CA200DC9A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9AD43299F8CA200DC9A30 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B6572CD29AFA02500C132B4 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 		8BE9AD3C299F8CA100DC9A30 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE9AD3F299F8CA100DC9A30 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		8BE9AD41299F8CA100DC9A30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				8BE9AD7029A26C4D00DC9A30 /* SidebarView.swift */,
 				8BE9AD7429A26D7000DC9A30 /* Filter.swift */,
 				8BE9AD41299F8CA100DC9A30 /* ContentView.swift */,
+				8B6572CD29AFA02500C132B4 /* IssueRow.swift */,
 				8BE9AD7229A26C5B00DC9A30 /* DetailView.swift */,
 				8BE9AD4E299FB1AE00DC9A30 /* Main.xcdatamodeld */,
 				8BE9AD9029A4F8FF00DC9A30 /* Issue-CoreDateHelpers.swift */,
@@ -170,6 +173,7 @@
 				8BE9AD42299F8CA100DC9A30 /* ContentView.swift in Sources */,
 				8BE9AD9129A4F8FF00DC9A30 /* Issue-CoreDateHelpers.swift in Sources */,
 				8BE9AD9329A4FAF800DC9A30 /* Tag-CoreDateHelpers.swift in Sources */,
+				8B6572CE29AFA02500C132B4 /* IssueRow.swift in Sources */,
 				8BE9AD40299F8CA100DC9A30 /* UltimatePortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
