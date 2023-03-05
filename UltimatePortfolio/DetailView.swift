@@ -14,12 +14,13 @@ struct DetailView: View {
         VStack {
             if let issue = dataController.selectedIssue {
                 IssueView(issue: issue)
+                    .padding()
             } else {
                 NoIssueView()
             }
         }
         .navigationTitle("Details")
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineBarTitle
     }
 }
 
