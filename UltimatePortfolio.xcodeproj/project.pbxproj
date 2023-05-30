@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		8B54776229B1017D0079F730 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54776129B1017D0079F730 /* IssueView.swift */; };
 		8B54776429B1018C0079F730 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54776329B1018C0079F730 /* NoIssueView.swift */; };
-		8B54776629B11CDD0079F730 /* InlineBarTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54776529B11CDD0079F730 /* InlineBarTitle.swift */; };
 		8B6572CE29AFA02500C132B4 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6572CD29AFA02500C132B4 /* IssueRow.swift */; };
+		8B7E4CA12A1F3CAD001B3D3A /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7E4C9F2A1F3CAD001B3D3A /* Awards.json */; };
+		8B7E4CA22A1F3CAD001B3D3A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7E4CA02A1F3CAD001B3D3A /* Colors.xcassets */; };
+		8B7E4CA42A1F3E38001B3D3A /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E4CA32A1F3E38001B3D3A /* Bundle-Decodable.swift */; };
+		8B7E4CA62A1F3EEC001B3D3A /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E4CA52A1F3EEC001B3D3A /* Award.swift */; };
+		8B7E4CA82A265606001B3D3A /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E4CA72A265606001B3D3A /* AwardsView.swift */; };
 		8BE9AD40299F8CA100DC9A30 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9AD3F299F8CA100DC9A30 /* UltimatePortfolioApp.swift */; };
 		8BE9AD42299F8CA100DC9A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9AD41299F8CA100DC9A30 /* ContentView.swift */; };
 		8BE9AD44299F8CA200DC9A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9AD43299F8CA200DC9A30 /* Assets.xcassets */; };
@@ -27,8 +31,12 @@
 /* Begin PBXFileReference section */
 		8B54776129B1017D0079F730 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
 		8B54776329B1018C0079F730 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
-		8B54776529B11CDD0079F730 /* InlineBarTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineBarTitle.swift; sourceTree = "<group>"; };
 		8B6572CD29AFA02500C132B4 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
+		8B7E4C9F2A1F3CAD001B3D3A /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
+		8B7E4CA02A1F3CAD001B3D3A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = "../../../../Downloads/portfolio-awards/Colors.xcassets"; sourceTree = "<group>"; };
+		8B7E4CA32A1F3E38001B3D3A /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		8B7E4CA52A1F3EEC001B3D3A /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		8B7E4CA72A265606001B3D3A /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		8BE9AD3C299F8CA100DC9A30 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE9AD3F299F8CA100DC9A30 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		8BE9AD41299F8CA100DC9A30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,18 +85,22 @@
 			children = (
 				8BE9AD53299FBCCE00DC9A30 /* Info.plist */,
 				8BE9AD3F299F8CA100DC9A30 /* UltimatePortfolioApp.swift */,
-				8BE9AD7029A26C4D00DC9A30 /* SidebarView.swift */,
 				8BE9AD7429A26D7000DC9A30 /* Filter.swift */,
+				8BE9AD51299FB45E00DC9A30 /* DataController.swift */,
+				8BE9AD7029A26C4D00DC9A30 /* SidebarView.swift */,
 				8BE9AD41299F8CA100DC9A30 /* ContentView.swift */,
 				8B6572CD29AFA02500C132B4 /* IssueRow.swift */,
 				8BE9AD7229A26C5B00DC9A30 /* DetailView.swift */,
 				8B54776129B1017D0079F730 /* IssueView.swift */,
 				8B54776329B1018C0079F730 /* NoIssueView.swift */,
-				8BE9AD4E299FB1AE00DC9A30 /* Main.xcdatamodeld */,
-				8BE9AD51299FB45E00DC9A30 /* DataController.swift */,
+				8B7E4CA52A1F3EEC001B3D3A /* Award.swift */,
+				8B7E4CA72A265606001B3D3A /* AwardsView.swift */,
 				8BE9AD9029A4F8FF00DC9A30 /* Issue-CoreDateHelpers.swift */,
 				8BE9AD9229A4FAF800DC9A30 /* Tag-CoreDateHelpers.swift */,
-				8B54776529B11CDD0079F730 /* InlineBarTitle.swift */,
+				8B7E4CA32A1F3E38001B3D3A /* Bundle-Decodable.swift */,
+				8BE9AD4E299FB1AE00DC9A30 /* Main.xcdatamodeld */,
+				8B7E4C9F2A1F3CAD001B3D3A /* Awards.json */,
+				8B7E4CA02A1F3CAD001B3D3A /* Colors.xcassets */,
 				8BE9AD43299F8CA200DC9A30 /* Assets.xcassets */,
 				8BE9AD45299F8CA200DC9A30 /* UltimatePortfolio.entitlements */,
 				8BE9AD46299F8CA200DC9A30 /* Preview Content */,
@@ -132,7 +144,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					8BE9AD3B299F8CA100DC9A30 = {
 						CreatedOnToolsVersion = 14.2;
@@ -163,6 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE9AD48299F8CA200DC9A30 /* Preview Assets.xcassets in Resources */,
+				8B7E4CA22A1F3CAD001B3D3A /* Colors.xcassets in Resources */,
+				8B7E4CA12A1F3CAD001B3D3A /* Awards.json in Resources */,
 				8BE9AD44299F8CA200DC9A30 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,11 +189,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE9AD7529A26D7000DC9A30 /* Filter.swift in Sources */,
+				8B7E4CA62A1F3EEC001B3D3A /* Award.swift in Sources */,
+				8B7E4CA82A265606001B3D3A /* AwardsView.swift in Sources */,
 				8BE9AD50299FB1AE00DC9A30 /* Main.xcdatamodeld in Sources */,
 				8BE9AD7329A26C5B00DC9A30 /* DetailView.swift in Sources */,
 				8BE9AD52299FB45E00DC9A30 /* DataController.swift in Sources */,
+				8B7E4CA42A1F3E38001B3D3A /* Bundle-Decodable.swift in Sources */,
 				8BE9AD7129A26C4D00DC9A30 /* SidebarView.swift in Sources */,
-				8B54776629B11CDD0079F730 /* InlineBarTitle.swift in Sources */,
 				8BE9AD42299F8CA100DC9A30 /* ContentView.swift in Sources */,
 				8BE9AD9129A4F8FF00DC9A30 /* Issue-CoreDateHelpers.swift in Sources */,
 				8BE9AD9329A4FAF800DC9A30 /* Tag-CoreDateHelpers.swift in Sources */,
@@ -226,6 +242,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -284,6 +301,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -310,6 +328,7 @@
 				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
 				DEVELOPMENT_TEAM = 5SYZQ266RF;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -349,6 +368,7 @@
 				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
 				DEVELOPMENT_TEAM = 5SYZQ266RF;
 				ENABLE_HARDENED_RUNTIME = YES;
