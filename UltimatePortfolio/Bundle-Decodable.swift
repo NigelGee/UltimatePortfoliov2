@@ -40,5 +40,6 @@ extension Bundle {
         } catch {
             fatalError("Failed to decode \(file) from bundle: \(error.localizedDescription)")
         }
+        // swiftlint: enable line_length
     }
 }

@@ -57,7 +57,7 @@ struct SidebarView: View {
         }
     }
 
-    func delete(_ filter:Filter) {
+    func delete(_ filter: Filter) {
         guard let tag = filter.tag else { return }
         dataController.delete(tag)
         dataController.save()

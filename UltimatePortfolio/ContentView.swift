@@ -21,8 +21,7 @@ struct ContentView: View {
         .searchable(text: $dataController.filterText,
                     tokens: $dataController.filterTokens,
                     suggestedTokens: .constant(dataController.suggestFilterTokens),
-                    prompt: "Filter issues, or type # to add tags")
-        { tag in
+                    prompt: "Filter issues, or type # to add tags") { tag in
             Text(tag.tagName)
         }
         .toolbar(content: ContentViewToolbar.init)
@@ -30,7 +29,7 @@ struct ContentView: View {
 
     func delete(_ offsets: IndexSet) {
         let issues = dataController.issuesForSelectedFilter()
-        
+
         for offset in offsets {
             let item = issues[offset]
             dataController.delete(item)
