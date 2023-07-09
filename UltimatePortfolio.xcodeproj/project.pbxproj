@@ -10,6 +10,12 @@
 		8B232F152A588BE6004B554C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B232F172A588BE6004B554C /* Localizable.strings */; };
 		8B232F192A588C1F004B554C /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 8B232F1B2A588C1F004B554C /* Localizable.stringsdict */; };
 		8B232F1D2A588C5D004B554C /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B232F1F2A588C5D004B554C /* Awards.json */; };
+		8B232F242A5AD4AF004B554C /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B232F232A5AD4AF004B554C /* SidebarViewToolbar.swift */; };
+		8B232F262A5AD605004B554C /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B232F252A5AD605004B554C /* IssueViewToolbar.swift */; };
+		8B232F282A5AD6D3004B554C /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B232F272A5AD6D3004B554C /* ContentViewToolbar.swift */; };
+		8B232F2A2A5AD7AB004B554C /* TagsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B232F292A5AD7AB004B554C /* TagsMenuView.swift */; };
+		8B232F2C2A5AD919004B554C /* SmartFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B232F2B2A5AD919004B554C /* SmartFilterRow.swift */; };
+		8B232F2E2A5AF14E004B554C /* UserFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B232F2D2A5AF14E004B554C /* UserFilterRow.swift */; };
 		8B54776229B1017D0079F730 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54776129B1017D0079F730 /* IssueView.swift */; };
 		8B54776429B1018C0079F730 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54776329B1018C0079F730 /* NoIssueView.swift */; };
 		8B6572CE29AFA02500C132B4 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6572CD29AFA02500C132B4 /* IssueRow.swift */; };
@@ -37,6 +43,12 @@
 		8B232F1C2A588C26004B554C /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		8B232F1E2A588C5D004B554C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		8B232F202A588C66004B554C /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
+		8B232F232A5AD4AF004B554C /* SidebarViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewToolbar.swift; sourceTree = "<group>"; };
+		8B232F252A5AD605004B554C /* IssueViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewToolbar.swift; sourceTree = "<group>"; };
+		8B232F272A5AD6D3004B554C /* ContentViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewToolbar.swift; sourceTree = "<group>"; };
+		8B232F292A5AD7AB004B554C /* TagsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsMenuView.swift; sourceTree = "<group>"; };
+		8B232F2B2A5AD919004B554C /* SmartFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFilterRow.swift; sourceTree = "<group>"; };
+		8B232F2D2A5AF14E004B554C /* UserFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFilterRow.swift; sourceTree = "<group>"; };
 		8B54776129B1017D0079F730 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
 		8B54776329B1018C0079F730 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 		8B6572CD29AFA02500C132B4 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
@@ -95,12 +107,18 @@
 				8BE9AD7429A26D7000DC9A30 /* Filter.swift */,
 				8BE9AD51299FB45E00DC9A30 /* DataController.swift */,
 				8BE9AD7029A26C4D00DC9A30 /* SidebarView.swift */,
+				8B232F2D2A5AF14E004B554C /* UserFilterRow.swift */,
+				8B232F232A5AD4AF004B554C /* SidebarViewToolbar.swift */,
 				8BE9AD41299F8CA100DC9A30 /* ContentView.swift */,
+				8B232F272A5AD6D3004B554C /* ContentViewToolbar.swift */,
 				8B6572CD29AFA02500C132B4 /* IssueRow.swift */,
 				8B232F172A588BE6004B554C /* Localizable.strings */,
 				8B232F1B2A588C1F004B554C /* Localizable.stringsdict */,
 				8BE9AD7229A26C5B00DC9A30 /* DetailView.swift */,
 				8B54776129B1017D0079F730 /* IssueView.swift */,
+				8B232F292A5AD7AB004B554C /* TagsMenuView.swift */,
+				8B232F252A5AD605004B554C /* IssueViewToolbar.swift */,
+				8B232F2B2A5AD919004B554C /* SmartFilterRow.swift */,
 				8B54776329B1018C0079F730 /* NoIssueView.swift */,
 				8B7E4CA52A1F3EEC001B3D3A /* Award.swift */,
 				8B7E4CA72A265606001B3D3A /* AwardsView.swift */,
@@ -201,7 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE9AD7529A26D7000DC9A30 /* Filter.swift in Sources */,
+				8B232F2A2A5AD7AB004B554C /* TagsMenuView.swift in Sources */,
 				8B7E4CA62A1F3EEC001B3D3A /* Award.swift in Sources */,
+				8B232F262A5AD605004B554C /* IssueViewToolbar.swift in Sources */,
+				8B232F2C2A5AD919004B554C /* SmartFilterRow.swift in Sources */,
 				8B7E4CA82A265606001B3D3A /* AwardsView.swift in Sources */,
 				8BE9AD50299FB1AE00DC9A30 /* Main.xcdatamodeld in Sources */,
 				8BE9AD7329A26C5B00DC9A30 /* DetailView.swift in Sources */,
@@ -209,9 +230,12 @@
 				8B7E4CA42A1F3E38001B3D3A /* Bundle-Decodable.swift in Sources */,
 				8BE9AD7129A26C4D00DC9A30 /* SidebarView.swift in Sources */,
 				8BE9AD42299F8CA100DC9A30 /* ContentView.swift in Sources */,
+				8B232F282A5AD6D3004B554C /* ContentViewToolbar.swift in Sources */,
 				8BE9AD9129A4F8FF00DC9A30 /* Issue-CoreDateHelpers.swift in Sources */,
 				8BE9AD9329A4FAF800DC9A30 /* Tag-CoreDateHelpers.swift in Sources */,
+				8B232F242A5AD4AF004B554C /* SidebarViewToolbar.swift in Sources */,
 				8B54776229B1017D0079F730 /* IssueView.swift in Sources */,
+				8B232F2E2A5AF14E004B554C /* UserFilterRow.swift in Sources */,
 				8B54776429B1018C0079F730 /* NoIssueView.swift in Sources */,
 				8B6572CE29AFA02500C132B4 /* IssueRow.swift in Sources */,
 				8BE9AD40299F8CA100DC9A30 /* UltimatePortfolioApp.swift in Sources */,
