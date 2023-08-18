@@ -39,7 +39,7 @@ extension Issue {
         }
     }
 
-    var issueTagList: String {
+    var issueTagsList: String {
         guard let tags else { return "No Tags" }
 
         if tags.count == 0 {
