@@ -26,9 +26,9 @@ struct ContentViewToolbar: View {
 
                 Divider()
 
-                Picker("sort Order", selection: $dataController.sortNewestFirst) {
-                    Text("Newest to Oldest").tag(true)
-                    Text("Oldest to Newest").tag(false)
+                Picker("Sort Order", selection: $dataController.sortNewestFirst) {
+                    Text("Newest to Oldest").tag(false)
+                    Text("Oldest to Newest").tag(true)
                 }
             }
 

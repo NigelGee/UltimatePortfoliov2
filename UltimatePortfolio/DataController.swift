@@ -6,6 +6,7 @@
 //
 
 import CoreData
+import SwiftUI
 
 enum SortType: String {
     case dateCreated = "creationDate"
@@ -33,7 +34,7 @@ class DataController: ObservableObject {
     @Published var filterPriority = -1
     @Published var filterStatus = Status.all
     @Published var sortType = SortType.dateCreated
-    @Published var sortNewestFirst = true
+    @Published var sortNewestFirst = false
 
     private var saveTask: Task<Void, Error>?
 
@@ -107,6 +108,13 @@ class DataController: ObservableObject {
             if let error {
                 fatalError("Fatal error loading store: \(error.localizedDescription)")
             }
+
+            #if DEBUG
+            if CommandLine.arguments.contains("enable-testing") {
+                self.deleteAll()
+                UIView.setAnimationsEnabled(false)
+            }
+            #endif
         }
     }
 

@@ -19,6 +19,7 @@ struct Filter: Identifiable, Hashable {
     }
 
     static var all = Filter(id: UUID(), name: "All Issues", icon: "tray")
+
     static var recent = Filter(
         id: UUID(),
         name: "Recent Issues",
