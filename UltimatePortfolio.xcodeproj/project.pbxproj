@@ -34,6 +34,7 @@
 		8B957B6A2A74231100B13EC9 /* AssetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B957B692A74231100B13EC9 /* AssetsTests.swift */; };
 		8BA34F5A2AA0BC4900EDBED6 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA34F592AA0BC4900EDBED6 /* UltimatePortfolioUITests.swift */; };
 		8BA34F5C2AA0BC4900EDBED6 /* UltimatePortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA34F5B2AA0BC4900EDBED6 /* UltimatePortfolioUITestsLaunchTests.swift */; };
+		8BC611C92AB1D83000A5BA09 /* SidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC611C82AB1D83000A5BA09 /* SidebarViewModel.swift */; };
 		8BE9AD40299F8CA100DC9A30 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9AD3F299F8CA100DC9A30 /* UltimatePortfolioApp.swift */; };
 		8BE9AD42299F8CA100DC9A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE9AD41299F8CA100DC9A30 /* ContentView.swift */; };
 		8BE9AD44299F8CA200DC9A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9AD43299F8CA200DC9A30 /* Assets.xcassets */; };
@@ -99,6 +100,7 @@
 		8BA34F592AA0BC4900EDBED6 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
 		8BA34F5B2AA0BC4900EDBED6 /* UltimatePortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8BA34F622AA33F1000EDBED6 /* UltimatePortfolioUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = UltimatePortfolioUITests.xctestplan; path = UltimatePortfolioUITests/UltimatePortfolioUITests.xctestplan; sourceTree = "<group>"; };
+		8BC611C82AB1D83000A5BA09 /* SidebarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewModel.swift; sourceTree = "<group>"; };
 		8BE9AD3C299F8CA100DC9A30 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE9AD3F299F8CA100DC9A30 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		8BE9AD41299F8CA100DC9A30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			children = (
 				8BE9AD7429A26D7000DC9A30 /* Filter.swift */,
 				8BE9AD7029A26C4D00DC9A30 /* SidebarView.swift */,
+				8BC611C82AB1D83000A5BA09 /* SidebarViewModel.swift */,
 				8B232F232A5AD4AF004B554C /* SidebarViewToolbar.swift */,
 				8B232F2B2A5AD919004B554C /* SmartFilterRow.swift */,
 				8B232F2D2A5AF14E004B554C /* UserFilterRow.swift */,
@@ -489,6 +492,7 @@
 				8BE9AD52299FB45E00DC9A30 /* DataController.swift in Sources */,
 				8B7E4CA42A1F3E38001B3D3A /* Bundle-Decodable.swift in Sources */,
 				8BE9AD7129A26C4D00DC9A30 /* SidebarView.swift in Sources */,
+				8BC611C92AB1D83000A5BA09 /* SidebarViewModel.swift in Sources */,
 				8BE9AD42299F8CA100DC9A30 /* ContentView.swift in Sources */,
 				8B232F282A5AD6D3004B554C /* ContentViewToolbar.swift in Sources */,
 				8BE9AD9129A4F8FF00DC9A30 /* Issue-CoreDateHelpers.swift in Sources */,
